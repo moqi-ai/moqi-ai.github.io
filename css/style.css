@@ -83,7 +83,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.6);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -92,9 +92,9 @@ a:focus {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 15px;
+	font-size: 16px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #111;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -305,7 +305,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/finger.jpg) no-repeat top center;
+	background: url(../img/finger.png) no-repeat top center;
 }
 
 #intro.intro {
