@@ -303,8 +303,8 @@ hr {
 
 .intro {
 	width:100%;
+  height: 100%;
 	position:relative;
-	
 	background: url(../img/finger.png) no-repeat top center;
 }
 
@@ -332,8 +332,8 @@ hr {
 .intro .slogan h2 {
 	color: #FFF;
 	text-shadow: none;
-	font-size: 60px;
-	line-height: 60px;
+	font-size: 4em;
+	line-height: 2em;
 	font-weight: 700;
 	font-family: Montserrat, sans-serif;
 	background-color: rgba(0, 0, 0, 0);
