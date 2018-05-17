@@ -43,4 +43,6 @@ function show(id) {
 
 $(document).ready(function () {
     show("algorithm_engineer");
+    var sectionH=$(window).height()-$("#footer").outerHeight();
+    $("#section").css('min-height',sectionH+'px');
 })
