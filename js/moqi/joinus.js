@@ -39,10 +39,21 @@ function show(id) {
             $("#full_stack_developer").hide();
             break;
     }
+
 }
 
 $(document).ready(function () {
     show("algorithm_engineer");
-    var sectionH=$(window).height()-$("#footer").outerHeight();
-    $("#section").css('min-height',sectionH+'px');
+    var sectionH = $(window).height() - $("#footer").outerHeight();
+    $("#section").css('min-height', sectionH + 'px');
+
+    var map = new AMap.Map('map', {
+        zoom: 15,
+        center: [116.303609, 39.986014]
+    });
+    marker = new AMap.Marker({
+        position: [116.303609, 39.986014],
+        title: "中关村国际创新大厦"
+    });
+    marker.setMap(map);
 })
